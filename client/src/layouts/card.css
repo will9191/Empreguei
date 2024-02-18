@@ -1,0 +1,72 @@
+:root {
+    --black: #000000;
+    --gray: #e9e9e9;
+    --white: #ffffff;
+    --navyBlue: #021e65;
+    --lightNavyBlue: #00247d;
+    --darkOrange: #c53e23;
+    --orange: #ff5e3c;
+    --dullOrange: #ffd0b4;
+  }
+
+
+.card {
+    width: 400px;
+    height: 350px;
+    background-color: var(--gray);
+    border: 2px solid var(--black);
+    color: var(--black);
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px #22222270;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card h1 {
+    font-size: 30px;
+    display: flex;
+}
+
+.card hr{
+    border: 2px solid var(--black);
+    width: 100%;
+}
+
+.card p {
+    color: #555;
+}
+
+.card h3{
+    justify-content: space-between;
+    display: flex;
+}
+
+.card h3 span{
+    margin-left: 40px;
+}
+
+.card_footer {
+    width: 100%;
+    color: var(--black);
+    width: 40px;
+    height: 40px;
+    background-color: var(--primary);
+    color: var(--black);
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.ver-card{
+    position: absolute;
+}
+
+.card h1 .logo-card{
+    width: 40px;
+}
+

@@ -1,0 +1,251 @@
+:root {
+  --black: #000000;
+  --gray: #e9e9e9;
+  --white: #ffffff;
+  --navyBlue: #021e65;
+  --lightNavyBlue: #00247d;
+  --darkOrange: #c53e23;
+  --orange: #ff5e3c;
+  --dullOrange: #ffd0b4;
+}
+
+
+
+.test {
+  color: #ffa000;
+}
+
+.global-form {
+  background-color: rgb(235, 235, 235);
+  width: 100vw;
+  height: 100vh;
+  padding-top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container { 
+  background-color: white;
+  border-radius: 20px;
+  box-sizing: border-box;
+  max-height: auto;
+  padding: 20px;
+  width: 500px;
+  box-shadow: #eee;
+}
+
+.form-container img{
+  user-select: none;
+  width: 60px;
+}
+
+.form-container h1 {
+  font-size: 20px;
+  user-select: none;
+  font-size: 50px;
+  font-weight: 800;
+  color: black;
+  
+}
+
+.form-container h2 {
+  font-size: 35px;
+  font-weight: 500;
+  color: black;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin: 20px;
+  border-bottom: var(--dullOrange) 2px solid;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+
+
+
+.input-field {
+  margin: 2px;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  top: 0;
+  left: 0;
+  height: 30px;
+  outline: none;
+  border-radius: 5px;
+  padding: 4px 20px 0;
+  width: 100%;
+}
+
+
+
+.input-field label{
+  margin: 7px;
+  letter-spacing: 2px;
+  position: absolute;
+  left: 1em;
+  top: 0.8rem;
+  padding: 0 0 .5rem;
+  color: var(--gray);
+  cursor: text;
+  transition: top 200ms ease-in, 
+  left 200ms ease-in,
+  font-size 200ms ease-in;
+}
+
+
+.input-field:focus ~ .input-field label,
+.input-field:not(:placeholder-shown):not(:focus) ~ .input-field {
+  top: -0.5rem;
+  font-size: 0.8rem;
+  left: 0.8rem;
+  background-color: white;
+}
+
+
+.form-span {
+  display: inline-block;
+  text-align: center;
+}
+
+.form-span h1 {
+  text-align: center;
+}
+.form-img {
+  width: 120px;
+}
+
+
+.redirect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  float: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+
+
+input[type='password'] {
+  -webkit-text-security: circle;
+}
+
+.error-text {
+  color: red;
+}
+
+.form-button {
+  display: block;
+  letter-spacing: 1px;
+  transition: 0.8s;
+  width: 100%;
+  border: 2px solid var(--orange);
+  height: 50px;
+  background: var(--orange);
+  color: var(--white);
+  font-size: 22px;
+  text-align: center;
+  padding: 10px 35%;
+  border-radius: 5px;
+  box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  position: sticky;
+  overflow: hidden;
+}
+
+.form-button:hover {
+  color: var(--orange);
+}
+
+.form-button::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 0%;
+  background-color: var(--white);
+  z-index: -1;
+  transition: 0.8s;
+  border-radius: 0 0 50% 50%;
+}
+
+.form-button:hover::before {
+  height: 180%;
+}
+
+.redirect a{
+  font-size: 18px;
+ text-decoration: none;
+ color: var(--black);
+}
+
+.redirect a:hover{
+  transition: 1s ease;
+  color: var(--orange);
+}
+
+.forgot-link{
+  padding: 10px 0px;
+}
+
+
+.showPassword{
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.showPassword span{
+    color: var(--darkOrange);
+}
+
+.form_persist{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  cursor: pointer;
+  user-select: none;
+  font-size: 18px;
+}
+
+.form_persist:hover{
+  transition: 1s ease;
+  color: var(--darkOrange);
+}
+
+.form_checkbox{
+  margin-right: 4px;
+  width: 18px;
+  cursor: pointer;
+}
+
+.form_checkbox:hover{
+  background-color: var(--darkOrange);
+}
+
+.form_checkbox:active{
+  border: 3px solid var(--darkOrange);
+}
+
+
+@media only screen and (max-width: 600px) {
+  .form-container{
+    width: 400px;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+
+  }
+}

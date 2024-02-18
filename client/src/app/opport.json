@@ -1,0 +1,24 @@
+[
+  {
+    "logo": "../src/assets/logo.png",
+    "name": "Empresa1",
+    "desc": "Funileiro Agrícola - Sênior Presencial",
+    "loc": "Cidade1",
+    "hor": "8h - 17h"
+  },
+  {
+    "logo": "../src/assets/logo.png",
+    "name": "Empresa2",
+    "desc": "Funileiro Agrícola2 - Sênior Presencial",
+    "loc": "Cidade2",
+    "hor": "8h - 12h"
+  },
+  {
+    "logo": "../src/assets/logo.png",
+    "name": "Empresa3",
+    "desc": "Funileiro Agrícola3 - Sênior Presencial",
+    "loc": "Cidade3",
+    "hor": "8h - 13h"
+  }
+]
+

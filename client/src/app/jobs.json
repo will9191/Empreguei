@@ -1,0 +1,82 @@
+[
+  {
+    "cargo": "Desenvolvedor Web",
+    "imagem": "https://cdn-icons-png.flaticon.com/512/2133/2133111.png"
+  },
+  {
+    "cargo": "Analista de Dados",
+    "imagem": "https://cdn-icons-png.flaticon.com/512/5145/5145822.png"
+  },
+  {
+    "cargo": "Engenheiro de Software",
+    "imagem": "https://cdn-icons-png.flaticon.com/512/6024/6024190.png"
+  },
+  {
+    "cargo": "Designer Gráfico",
+    "imagem": "https://cdn-icons-png.flaticon.com/512/1185/1185239.png"
+  },
+  {
+    "cargo": "Gerente de Projetos",
+    "imagem": "https://cdn-icons-png.flaticon.com/512/3273/3273070.png"
+  },
+  {
+    "cargo": "Especialista em Marketing Digital",
+    "imagem": "https://cdn-icons-png.flaticon.com/512/2329/2329095.png"
+  },
+  {
+    "cargo": "Enfermeiro",
+    "imagem": "https://cdn-icons-png.flaticon.com/512/2865/2865457.png"
+  },
+  {
+    "cargo": "Analista de RH",
+    "imagem": "https://www.mjcapacitacoes.com.br/wp-content/uploads/2018/04/recursos-humanos-icon.png"
+  },
+  {
+    "cargo": "Técnico de Suporte de TI",
+    "imagem": "https://cdn-icons-png.flaticon.com/512/1792/1792337.png"
+  },
+  {
+    "cargo": "Advogado",
+    "imagem": "https://cdn-icons-png.flaticon.com/512/1995/1995453.png"
+  },
+  {
+    "cargo": "Contador",
+    "imagem": "https://cdn-icons-png.flaticon.com/512/6341/6341774.png"
+  },
+  {
+    "cargo": "Engenheiro Civil",
+    "imagem": "https://cdn-icons-png.flaticon.com/512/206/206899.png"
+  },
+  {
+    "cargo": "Professor",
+    "imagem": "https://img.freepik.com/vetores-premium/vetor-de-icone-de-treinamento-icone-de-educacao-de-treinamento-quadro-negro-com-sinal-de-vetor-de-seminario-de-professor_578506-396.jpg"
+  },
+  {
+    "cargo": "Farmacêutico",
+    "imagem": "https://cdn-icons-png.flaticon.com/512/2310/2310286.png"
+  },
+  {
+    "cargo": "Analista Financeiro",
+    "imagem": "https://static.vecteezy.com/ti/vetor-gratis/p3/4527426-analista-financeiro-negro-glifo-icone-especialista-analise-de-negocios-decisoes-de-negocios-guia-especialista-investimento-e-bancario-carreira-silhueta-simbolo-no-espaco-branco-espaco-ilustracao-isolado-vetor.jpg"
+  },
+  {
+    "cargo": "Analista de Marketing",
+    "imagem": "https://cdn-icons-png.flaticon.com/512/2171/2171135.png"
+  },
+  {
+    "cargo": "Médico",
+    "imagem": "https://cdn-icons-png.flaticon.com/512/3952/3952988.png"
+  },
+  {
+    "cargo": "Analista de Sistemas",
+    "imagem": "https://cdn-icons-png.flaticon.com/512/4795/4795402.png"
+  },
+  {
+    "cargo": "Nutricionista",
+    "imagem": "https://cdn-icons-png.flaticon.com/512/5745/5745436.png"
+  },
+  {
+    "cargo": "Engenheiro Eletricista",
+    "imagem": "https://static.vecteezy.com/ti/vetor-gratis/p3/6402319-pessoa-e-parafuso-conceito-de-engenheiro-eletrico-icone-plano-vetor.jpg"
+  }
+]

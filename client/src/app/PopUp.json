@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1",
+    "titulo": "Como recuperar meu acesso?",
+    "desc": "Tente escolher a opção 'Esqueceu a Senha?' ou mande uma mensagem para gente! "
+  },
+  {
+    "id": "2",
+    "titulo": "Como preencher os campos de curso do currículo?",
+    "desc": "Clique em Editar Dados e edite tudo!"
+  },
+  {
+    "id": "3",
+    "titulo": "Como posso atualizar meu currículo?",
+    "desc": "Depois que editar seu currículo, clique sem Salvar!"
+  },
+  {
+    "id": "4",
+    "titulo": "Posso publicar mais de uma vaga?",
+    "desc": "Claro. A equipe Empreguei pensamos nas Empresas também!"
+  },
+  {
+    "id": "5",
+    "titulo": "É obriatório colocar minhas informações no currículo?",
+    "desc": "Não, não é! porém é sempre bom."
+  }
+]

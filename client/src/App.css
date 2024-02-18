@@ -1,0 +1,11 @@
+* ::spelling-error{
+    text-decoration: wavy blue;
+    background-color: blue;
+    cursor: pointer;
+  }
+  
+
+  .swiper-button-prev {
+   color: black;
+   background: black;
+  }

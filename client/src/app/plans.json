@@ -1,0 +1,48 @@
+[
+  {
+    "id": "1",
+    "title": "Simples",
+    "benefits": [      
+    { "icon": true, "benefit": "Postar vagas ilimitadas" },
+    { "icon": true, "benefit": "20 emails por mês" },
+    { "icon": false, "benefit": "Plano" },
+    { "icon": false, "benefit": "Plano" },
+    { "icon": false, "benefit": "Empresa popular" },
+    { "icon": false, "benefit": "Prioridade de visualização" }],
+    "price": "R$00,00",
+    "show": "Assinar Plano",
+    "atual": true,
+    "texto": "Plano Atual"
+  },
+  {
+    "id": "2",
+    "title": "Intermediário",
+    "benefits": [      
+    { "icon": true, "benefit": "Postar vagas ilimitadas" },
+    { "icon": true, "benefit": "50 emails por mês" },
+    { "icon": true, "benefit": "Plano" },
+    { "icon": true, "benefit": "Plano" },
+    { "icon": false, "benefit": "Empresa popular" },
+    { "icon": false, "benefit": "Prioridade de visualização" }],
+    "price": "R$15,00",
+    "show": "Assinar Plano",
+    "atual": false,
+    "texto": "Plano Atual"
+  },
+  {
+    "id": "3",
+    "title": "Avançado",
+    "benefits": [
+      { "icon": true, "benefit": "Postar vagas ilimitadas" },
+      { "icon": true, "benefit": "200 emails por mês" },
+      { "icon": true, "benefit": "Plano" },
+      { "icon": true, "benefit": "Plano" },
+      { "icon": true, "benefit": "Empresa popular" },
+      { "icon": true, "benefit": "Prioridade de visualização" }
+    ],
+    "price": "R$30,00",
+    "show": "Assinar Plano",
+    "atual": false,
+    "texto": "Plano Atual"
+  }
+]
